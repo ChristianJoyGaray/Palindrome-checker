@@ -225,12 +225,30 @@ html, body{
     .checker{
         width: 80%;
     }
+
     #check-btn{
         border-radius: 40px;
         width: 25%;
         font-size: 0.8rem;
         font-weight: 300;
     }
+}
+
+@media only screen and (max-width: 400px){
+
+    .checker{
+        width: 90%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 300px){
+
+    .checker{
+        width: 90%;
+    }
+    
 }
 
 
